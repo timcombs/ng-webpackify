@@ -3,7 +3,7 @@
 
 ## Description
 
-Create a simple angular app (you can resuse your editor) that uses webpack and webpack-dev-server
+Create a simple angular app (you can resuse your editor or write something new) that uses webpack and webpack-dev-server
 
 ## Requirements
 
