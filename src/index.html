@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+  <head>
+    <meta charset="UTF-8">
+    <title>ng-webpackify cf401 lab</title>
+    <link href="https://fonts.googleapis.com/css?family=Bitter|Bungee+Inline|Tillana" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.0-rc.2/angular.min.js"></script>
+      <script src="main.js"></script>
+  </head>
+
+  <body>
+    <div ng-controller="fontController">
+      <input ng-model="message" type="text">
+
+      <select ng-model="myColor" ng-options="color.color for color in colors" ng-change="changeColor(myColor)"></select>
+
+      <select ng-model="myFont" ng-options="font.font for font in fonts" ng-change="changeFont(myFont)"></select>
+
+      <hr>
+
+      <div style="color:{{selectedColor}}; font-family:{{selectedFont}}">{{message}}</div>
+
+    </div>
+    
+  </body>
+</html>
