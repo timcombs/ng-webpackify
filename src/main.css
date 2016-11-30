@@ -1,0 +1,8 @@
+body {
+  background-color: aqua;
+}
+
+select {
+  background-color: aquamarine;
+  border: 1px dashed coral;
+}
